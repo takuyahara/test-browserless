@@ -1,0 +1,13 @@
+{
+	"name": "test-browserless",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"esbenp.prettier-vscode",
+				"analytic-signal.preview-pdf"
+			]
+		}
+	},
+	"postCreateCommand": "/bin/bash .devcontainer/postCreateCommand.sh"
+}
